@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bangers&family=Caveat+Brush&family=Chicle&family=DM+Serif+Text:ital@0;1&family=Jersey+15&family=Kaushan+Script&family=Lobster&family=Nanum+Pen+Script&family=Pacifico&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+IN:wght@100..400&family=Poor+Story&display=swap");
+body {
+ background-color: #faf2e7;
+  margin: 0;
+  padding: 0;
+}
+/*name and logo*/
+.Brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.brand-logo {
+  padding: 10px;
+}
+.brand-logo img {
+  border-radius: 50%;
+}
+
+main {
+  /*background-color: rgba(135, 227, 250, 0.267);*/
+  border: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+ 
+}
+h1 {
+    
+  font-family: "Playwrite AU SA", serif;
+  font-weight: 900;
+  font-size: 70px;
+  font-style: normal;
+  color: #dd5746;
+}
+h2 {
+ text-align: center;
+  font-family: "Nanum Pen Script", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 80px;
+  color: #fc4100;
+  z-index: 2;
+
+}
+h3 {
+    font-size: 40px;
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #3f8dac;
+    z-index: 2;
+
+  }
+ul {
+  list-style-type: none;
+}
+
+.Appetizers{    background-image: url("https://static.vecteezy.com/system/resources/previews/005/081/327/non_2x/korean-traditional-lunar-new-year-s-card-template-free-vector.jpg");
+
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+      position: relative; 
+
+}
+.shadow{
+    background-color: rgba(250, 242, 231, 0.562);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+  }
+.aptz{
+    width: 100%;
+    display: flex;
+
+
+}
+.aptz-text {
+color: #021841;
+display: flex;
+flex-direction: column;
+padding-bottom: 40px;
+z-index: 2;
+
+}
+.aptz-text p{
+font-family: "Poor Story", serif;
+width: 100%;
+font-weight: 600;
+font-style: normal;
+font-size: 35px;
+}
+.aptz-image {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: end;
+z-index: 2;
+
+}
+.aptz-image img {
+border-radius: 50%;
+height: 250px;
+width: 300px;
+
+}
+.Main-course {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/081/327/non_2x/korean-traditional-lunar-new-year-s-card-template-free-vector.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+    position: relative; 
+
+}
+
+.course {
+    width: 100%;
+    display: flex;
+}
+.course-text {
+   
+    color: #021841;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    z-index: 2;
+
+  }
+  .course-text p{
+    font-family: "Poor Story", serif;
+width: 100%;
+font-weight: 600;
+font-style: normal;
+font-size: 35px;
+}
+  
+.course-image {
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  z-index: 2;
+
+}
+.course-image img {
+  border-radius: 50%;
+  height: 250px;
+  width: 300px;
+
+}
+.Desserts{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/081/327/non_2x/korean-traditional-lunar-new-year-s-card-template-free-vector.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+    position: relative; 
+
+}
+.dssrt{
+        width: 100%;
+        display: flex;
+        z-index: 2;
+
+}
+.dssrt-text {
+   
+    color: #021841;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    z-index: 2;
+
+  }
+  .dssrt-text p{
+    font-family: "Poor Story", serif;
+width: 100%;
+font-weight: 600;
+font-style: normal;
+font-size: 35px;
+z-index: 2;
+
+  }
+.dssrt-image {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  z-index: 2;
+
+}
+.dssrt-image img {
+  border-radius: 50%;
+  height: 250px;
+  width: 300px;
+  z-index: 2;
+
+}
+.Reservation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;justify-content: center;
+
+}
+.Reservation p{
+    font-size: 20px;
+    font-family: monospace;
+    display: flex;
+}
+.Reservation img{
+    height:100px;
+    height:150px;
+    margin: 5px;
+padding: 5px;
+}
